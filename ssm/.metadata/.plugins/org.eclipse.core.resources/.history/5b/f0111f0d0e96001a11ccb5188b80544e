@@ -1,0 +1,5 @@
+package com.project.service.iface;
+
+public class UserService {
+
+}

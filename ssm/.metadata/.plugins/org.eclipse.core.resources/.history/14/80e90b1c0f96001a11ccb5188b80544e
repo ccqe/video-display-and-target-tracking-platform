@@ -1,0 +1,39 @@
+package com.project.service.impl;
+
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import com.project.entity.User;
+import com.project.mapper.UserMapper;
+import com.project.service.iface.UserService;
+
+public class UserServiceImpl implements UserService{
+	@Resource
+	private UserMapper userMapper;
+
+	@Override
+	public List<User> getUserlistBykey(String key) {
+		
+		return userMapper.findCameraBykey(key);
+	}
+
+	@Override
+	public void addUser(User user) {
+		userMapper.addCamera(user);
+		
+	}
+
+	@Override
+	public void deleteUser(int id) {
+		userMapper.deleteCamera(id);
+		
+	}
+
+	@Override
+	public void updateUser(User user) {
+		userMapper.u
+		
+	}
+
+}

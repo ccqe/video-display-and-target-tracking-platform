@@ -1,0 +1,46 @@
+package com.project.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.project.service.iface.CameraService;
+
+
+
+@Controller
+@RequestMapping("api")
+public class MainAction {
+	/*@Resource
+	private CameraService cameraService;*/
+	
+	
+	@RequestMapping("test")
+	@ResponseBody
+	public List<String> testWork2() {
+		
+		System.out.println("----------------------");
+		
+		List<String> allProvices = new ArrayList<String>();
+		allProvices.add("北京");
+		allProvices.add("安徽");
+		allProvices.add("江苏");
+		return allProvices;
+
+	}
+	
+	@RequestMapping("rtmp")
+	@ResponseBody
+	public List<String> getRtmp() {
+		List<String> allProvices = new ArrayList<String>();
+		/*cameraService.getRtmp();*/
+		allProvices.add("北京");
+		return allProvices;
+
+	}
+}
