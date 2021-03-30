@@ -1,0 +1,27 @@
+{
+    "camera":[{
+        "name":"a",
+        "positionX":114.4404244700, 
+        "positionY":30.4662142300,  
+        "peopleNum": 109,  
+        "vehiclesNum": 150        
+    },{
+        "name":"b",
+        "positionX":114.4414244700, 
+        "positionY":30.4672142300,  
+        "peopleNum": 109,  
+        "vehiclesNum": 150 
+    },{
+        "name":"c",
+        "positionX":114.4414244710, 
+        "positionY":30.4662142300,  
+        "peopleNum": 200,  
+        "vehiclesNum": 100 
+    },{
+        "name":"d",
+        "positionX":114.4404244700,   
+        "positionY":30.4672142300, 
+        "peopleNum": 300,  
+        "vehiclesNum": 27 
+    }]
+}

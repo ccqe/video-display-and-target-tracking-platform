@@ -1,0 +1,9 @@
+{
+    "rtmpInfo": [
+    { "name": "camera1", "rtmpSrc": "rtmp://138.128.192.237:1935/live"},
+    { "name": "camera2", "rtmpSrc": "rtmp://138.128.192.237:1935/live"},
+    { "name": "camera3", "rtmpSrc": "rtmp://138.128.192.237:1935/live"},
+    { "name": "camera4", "rtmpSrc": "rtmp://138.128.192.237:1935/live"}
+    ]
+}
+
